@@ -1,0 +1,71 @@
+@import "./navbar.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #0d1117;
+    color: white;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #003049, #005f73);
+}
+
+.overlay {
+    text-align: center;
+}
+
+.overlay h1 {
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.overlay p {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    border: none;
+    padding: 18px 40px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.primary {
+    background: #1d4ed8;
+    color: white;
+}
+
+.primary:hover {
+    transform: translateY(-4px);
+}
+
+.secondary {
+    background: white;
+    color: #003049;
+}
+
+.secondary:hover {
+    transform: translateY(-4px);
+}
