@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import RequestRide from "../pages/RequestRide";
 import Home from "../pages/Home";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
@@ -17,6 +17,10 @@ function AppRoutes() {
                 <Route path="/passenger" element={<Passenger />} />
                 <Route path="/driver" element={<Driver />} />
                 <Route path="/profile" element={<Profile />} />
+                <Route
+  path="/request"
+  element={<RequestRide />}
+/>
             </Routes>
         </BrowserRouter>
     );
